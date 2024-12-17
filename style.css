@@ -353,3 +353,46 @@ header {
 .third .button-top:focus {
     background-color: #B18BDD;
 }
+
+.third .number {
+    margin-bottom: 0;
+}
+
+/* TABLET SIZE */
+
+@media only screen and (min-width: 48em) {
+
+    .first__text_container {
+        padding: 2em 10em;
+    }
+
+    .first__button-container {
+        flex-direction: row;
+    }
+
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .second__text {
+        padding: 1em 8.25em;
+    }
+
+    .second__header {
+        padding: 0 1.8em;
+    }
+
+    .third_image {
+        width: 48em;
+        background: url("/assets/tablet/image-footer.jpg");
+        background-size: contain;
+    }
+
+    .third__text {
+        justify-content: space-evenly;
+    }
+
+    .third__paragraph {
+        padding: 0 8em;
+    }
+}
