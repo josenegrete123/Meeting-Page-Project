@@ -83,6 +83,8 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+/* Top Section */
+
 header {
     display: flex;
     justify-content: center;
@@ -96,9 +98,13 @@ header {
     margin: 0 1em;
 }
 
+/* Top Image */
+
 .first img {
     margin: 1em;
 }
+
+/* Top Text */
 
 .first__text_container {
     display: flex;
@@ -128,6 +134,8 @@ header {
     text-align: center;
 }
 
+/* Top Buttons */
+
 .first__button-container {
     display: flex;
     flex-direction: column;
@@ -135,11 +143,50 @@ header {
     gap: 1em;
 }
 
+.button-top {
+    display: flex;
+    gap: 0.5em;
+    padding: 1em 2.5em;
+
+    background-color: var(--cyan-600);
+    border-radius: 1.813em;
+
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.button-top:focus,
+.button-top:hover {
+    background-color: var(--cyan-300);
+}
+
+.version {
+    color: var(--cyan-300);
+}
+
+.button-bottom {
+    padding: 1em 2.5em;
+
+    background: var(--purple-600);
+}
+
+.button-bottom:hover,
+.button-bottom:focus {
+    background-color: var(--purple-300);
+}
+/* Middle Section */
+
 .second {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* Middle Slider */
 
 .slide_line {
     margin-top: 3em;
@@ -162,6 +209,8 @@ header {
     border: 1px solid #D1D1DF;
     border-radius: 62.438em;
 }
+
+/* Middle Images */
 
 .container {
     display: grid;
