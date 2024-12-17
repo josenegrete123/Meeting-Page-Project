@@ -93,17 +93,78 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 1em;
 }
 
 .first img {
     margin: 1em;
 }
 
+.first__text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .first__header {
-    font-family: "Red Hat Display", serif;
+    font-family: "Red Hat Display";
     font-weight: 900;
     font-style: normal;
     font-size: 2.5rem;
+    line-height: 110%;
+
     color: var(--slate-900);
     text-align: center;
+}
+
+.first__paragraph {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+
+    color: var(--slate-600);
+    text-align: center;
+}
+
+.first__button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide_line {
+    margin-top: 3em;
+    width: 1px;
+    height: 80px;
+    background-color: #D1D1DF;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 0;
+    margin-bottom: 4em;
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    background: #FAFAFA;
+    border: 1px solid #D1D1DF;
+    border-radius: 62.438em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
 }
