@@ -217,7 +217,13 @@ header {
     border: 1px solid #D1D1DF;
     border-radius: 62.438em;
 
-    
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 150%;
+
+    color: var(--slate-600);
 }
 
 /* Middle Images */
