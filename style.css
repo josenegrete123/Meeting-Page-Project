@@ -100,8 +100,14 @@ header {
 
 /* Top Image */
 
-.first img {
+.first__image {
     margin: 1em;
+    background: url("/assets/tablet/image-hero.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 27.063em;
+    height: 10em;
 }
 
 /* Top Text */
@@ -362,6 +368,11 @@ header {
 
 @media only screen and (min-width: 48em) {
 
+    .first__image {
+        width: 51.25em;
+        height: 20em;
+    }
+
     .first__text_container {
         padding: 2em 10em;
     }
@@ -394,5 +405,72 @@ header {
 
     .third__paragraph {
         padding: 0 8em;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    .first__image {
+        width: 0;
+        height: 0;
+    }
+
+    .first {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0;
+    }
+
+    .left-image-desktop {
+        background: url("/assets/desktop/image-hero-left.png");
+        background-size: cover;
+        width: 24.625em;
+        height: 18.938em;
+        grid-column: 1/2;
+    }
+
+    .right-image-desktop {
+        background: url("/assets/desktop/image-hero-right.png");
+        background-size: cover;
+        width: 24.625em;
+        height: 18.938em;
+    }
+
+    .first__text_container {
+        padding: 0;
+        align-items: center;
+    }
+
+    .first__paragraph {
+        margin-bottom: 1em;
+        padding: 1em 3em;
+    }
+
+    .first__button-container {
+        margin-bottom: 5em;
+    }
+
+    .container {
+        margin: 0 10em;
+    }
+
+    .second__header {
+        margin: 0 8.25em;
+    }
+
+    .second_paragraph {
+        padding: 0 22em;
+    }
+
+    .third_image {
+        width: 90em;
+        background: url("/assets/desktop/image-footer.jpg");
+        background-size: cover;
+    }
+
+    .third__text {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10em;
+        text-align: start;
     }
 }
