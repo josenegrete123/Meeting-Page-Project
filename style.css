@@ -88,3 +88,22 @@ header {
     justify-content: center;
     margin: 3em auto;
 }
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first img {
+    margin: 1em;
+}
+
+.first__header {
+    font-family: "Red Hat Display", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: var(--slate-900);
+    text-align: center;
+}
