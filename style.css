@@ -172,6 +172,14 @@ header {
     padding: 1em 2.5em;
 
     background: var(--purple-600);
+    border-radius: 1.813em;
+
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 150%;
+    color: var(--white);
 }
 
 .button-bottom:hover,
@@ -208,6 +216,8 @@ header {
     background: #FAFAFA;
     border: 1px solid #D1D1DF;
     border-radius: 62.438em;
+
+    
 }
 
 /* Middle Images */
