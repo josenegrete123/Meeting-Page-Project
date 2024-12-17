@@ -161,7 +161,7 @@ header {
 
 .button-top:focus,
 .button-top:hover {
-    background-color: var(--cyan-300);
+    background-color: #71c0d4;
 }
 
 .version {
@@ -184,8 +184,9 @@ header {
 
 .button-bottom:hover,
 .button-bottom:focus {
-    background-color: var(--purple-300);
+    background-color: #B18BDD;
 }
+
 /* Middle Section */
 
 .second {
@@ -232,4 +233,123 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
+    margin: 1.5em;
+}
+
+.container img {
+    border-radius: 0.5em;
+}
+
+/* Middle Text */
+
+.second__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding: 2em;
+}
+
+.second__pre-header {
+    margin-top: 3em;
+
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 0.75em;
+    line-height: 110%;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+
+    color: var(--cyan-600);
+}
+
+.second__header {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 110%;
+
+    color: var(--slate-900);
+}
+
+.second_paragraph {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+    
+    color: var(--slate-600);
+}
+
+/* Bottom Section */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_image {
+    background: url("/assets/mobile/image-footer.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 23.438em;
+    height: 23.375em;
+}
+
+.third__text {
+    
+    background-color: rgba(77, 150, 168, 0.9);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4em 0.5em;
+    gap: 1.5em;
+
+    width: 100%;
+    height: 100%;
+}
+
+.third__header {
+    margin: 0;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 110%;
+
+    color: var(--white);
+}
+
+.third__paragraph {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+    padding: 0 1.75em;
+    margin: 0;
+
+    color: var(--white);
+}
+
+.third .button-top {
+    background-color: var(--purple-600);
+}
+
+.third .version {
+    color: var(--purple-300);
+}
+
+.third .button-top:hover,
+.third .button-top:focus {
+    background-color: #B18BDD;
 }
