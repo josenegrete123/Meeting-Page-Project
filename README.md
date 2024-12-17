@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/meet-landing-page-using-css-grid-and-flexbox-28i1AYh3PX)
 - Live Site URL: [Add live site URL here](https://josenegrete123.github.io/Meeting-Page-Project/)
 
 ## My process
