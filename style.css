@@ -462,7 +462,7 @@ header {
     }
 
     .third_image {
-        width: 100%;
+        width: 90em;
         background: url("./assets/desktop/image-footer.jpg");
         background-size: cover;
     }
